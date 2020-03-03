@@ -13,24 +13,24 @@ $(document).ready(function () {
 
 
     //calculating pizza price in ksh
-    function calcTotalPrice(quantity, price) {
-        return quantity * price;
-    }
+    // function calcTotalPrice(quantity, price) {
+    //     return quantity * price;
+    // }
     
-    function getMessage(quantity, totalPrice) {
-        return 'You purchased ' + quantity + ' pizza(s) and your total price is ksh' + totalPrice
-    }
+    // function getMessage(quantity, totalPrice) {
+    //     return 'You purchased ' + quantity + ' pizza(s) and your total price is ksh' + totalPrice
+    // }
     
-    function parseQuantity(val) {
-        return parseInt(val, 10) || 0;
-    }
+    // function parseQuantity(val) {
+    //     return parseInt(val, 10) || 0;
+    // }
     
     
-    function sum(list) {
-        return list.reduce(function(acc, x) {
-            return acc + x;
-        }, 0)
-    }
+    // function sum(list) {
+    //     return list.reduce(function(acc, x) {
+    //         return acc + x;
+    //     }, 0)
+    // }
     
     (function() {
         
