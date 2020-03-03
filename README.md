@@ -14,6 +14,7 @@ git clone https://github.com/Nasreenz/Pizzarella.git and extract the zip file th
 *Javascript
 *Bootsrap
 *Jquery
+*github
 
 ## Support and contact details:
 
