@@ -3,12 +3,18 @@ background-image: url("../image/pizz1.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+font-family: 'Playfair Display', serif;;
 
 }
 h1{
-    color: brown;
+    color: rgb(243, 8, 8);
 }
 h2,p{
     color: maroon;
 }
-
+.pizza{
+    color: midnightblue;
+}
+label{
+    color: navy;
+}
