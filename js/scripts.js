@@ -27,7 +27,7 @@ $(document).ready(function () {
 }
 
 function getMessage(quantity, totalPrice) {
-    return 'You purchased ' + quantity + ' pizza(s) and your total price is $' + totalPrice
+    return 'You purchased ' + quantity + ' pizza(s) and your total price is ksh' + totalPrice
 }
 
 function parseQuantity(val) {
@@ -54,7 +54,7 @@ function sum(list) {
 
         submitBtn.addEventListener('click', function() {
             var totalPrices;
-            var quantities = config.map(function (data) { // In ES6 we could use array destructing: [el, price]
+            var quantities = config.map(function (data) {
                 var el = data[0];
                 return parseQuantity(el.value);
             });

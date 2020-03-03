@@ -1,8 +1,11 @@
 body{
-background-image: url("../image/background1.jpeg");
+background-image: url("../image/pizz1.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 
+}
+h1,h2,p{
+    color: aquamarine;
 }
 
