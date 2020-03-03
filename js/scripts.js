@@ -28,6 +28,7 @@ $(document).ready(function () {
             [document.getElementById('quantitySmall'), 500],
             [document.getElementById('quantityMedium'), 900],
             [document.getElementById('quantityLarge'), 1200]
+            
           ];
     
             submitButton.addEventListener('click', function() {
