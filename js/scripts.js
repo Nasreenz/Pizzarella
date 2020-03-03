@@ -5,7 +5,7 @@ $("button#submit").click(function(){
     var toppings =$("#toppings").val();
     var crust =$("#crust").val();
     var delivery =$("#delivery").val();
-    alert("Hi, you have made an order of" + "<br>" + type + "for size" + size + "and added your toppings to be" + toppings + "and a crust is " + crust + "You will receive your order" +  "Proceed to make payments");
+    alert("Hi, you have made an order of " + type + " for size " + size + " with a crust of " + crust + " and added your toppings to be  " + toppings +  ". You will receive your order as " + delivery +  ". Please proceed to make purchase ");
 });
 
 
