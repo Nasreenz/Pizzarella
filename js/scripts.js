@@ -1,3 +1,14 @@
+$("button#submit").click(function(){
+    var type = $("#type").val();
+//   var type = ["chicken tikka", "Hawaiian"]
+    var size = $("#size").val();
+    var toppings =$("#toppings").val();
+    var crust =$("#crust").val();
+    var delivery =$("#delivery").val();
+    alert("Hi, you have made an order of" + "<br>" + type + "for size" + size + "and added your toppings to be" + toppings + "and a crust is " + crust + "You will receive your order" +  "Proceed to make payments");
+});
+
+
 //calculating pizza price in ksh
 $(document).ready(function () {
     function calcTotalPrice(quantity, price) {

@@ -24,7 +24,7 @@
         <select class="form-control" id="type">
             <option id="ct">Chicken tikka</option>
             <option id="h">Hawaiian</option>
-            <option id="bc">berbeque Ckicken</option id="berb">
+            <option id="bc">berbeque Chicken</option>
             <option id="mt" >Meat deluxe</option>
             <option id="vf" >Veg feast</option>
             <option id="lo" >Lamb and onions</option>
@@ -34,7 +34,7 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="type">choose pizza sizes:</label>
+        <label for="size">choose pizza sizes:</label>
         <select class="form-control" id="size">
             <option id="sm">Small</option>
             <option id="md">Medium</option>
@@ -42,7 +42,7 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="type" class="col-sm-3 col-form-label">choose pizza Toppings:</label>
+        <label for="toppings" class="col-sm-3 col-form-label">choose pizza Toppings:</label>
         <select class="form-control" id="toppings">
             <option id="ec">Extra cheese</option>
             <option id="bo">Black Olive</option>
@@ -54,15 +54,21 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="type">choose pizza Crust:</label>
-        <select class="form-control" id="toppings">
+        <label for="crust">choose pizza Crust:</label>
+        <select class="form-control" id="crust">
             <option id="c">Crispy</option>
             <option id="s">Stuffed</option>
             <option id="gf">Gluten-free</option>
         </select>
+        <div class="form-group">
+            <label for="delivery">choose pizza delivery option:</label>
+            <select class="form-control" id="delivery">
+                <option id="c">Home delivery</option>
+                <option id="s">Station pickup</option>
+            </select>
         <!-- <textarea class="form-1" rows="8" id="message" placeholder = "Your message here...."  value=""></textarea></div> -->
         <div class="submit1">
-          <button type="submit" onclick="getMessage()" class="btn btn-primary col-md-1">Submit</button>
+          <button type="submit" id="submit" onclick="getMessage()" class="btn btn-primary col-md-1">Submit</button>
         </div>
     </div>
        
@@ -75,7 +81,6 @@
         <li><strong>ksh 500 - Small</strong></li>
         <li><strong>ksh 900 - Medium</strong></li>
         <li><strong>ksh 1200 - Large</strong></li>
-       
     </ul>
 
     <label>Quantity: </label><input type="text" id="quantitySmall" value="0"> <label>Small</label>

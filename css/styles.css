@@ -5,7 +5,10 @@ background-attachment: fixed;
 background-size: cover;
 
 }
-h1,h2,p{
+h1{
+    color: brown;
+}
+h2,p{
     color: aquamarine;
 }
 
