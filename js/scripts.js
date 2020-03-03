@@ -21,7 +21,7 @@ $(document).ready(function () {
     });
 
   });
-
+//calculating pizza price in ksh
   function calcTotalPrice(quantity, price) {
     return quantity * price;
 }
@@ -34,7 +34,7 @@ function parseQuantity(val) {
     return parseInt(val, 10) || 0;
 }
 
-// Sum numbers in given list
+
 function sum(list) {
     return list.reduce(function(acc, x) {
         return acc + x;
@@ -42,17 +42,17 @@ function sum(list) {
 }
 
 (function() {
-    // We use IIFE here to define a scope to initialize some variables here
+    
     var submitBtn = document.getElementById('submitButton');
     var outputPara = document.getElementById('totalPrice');
 
     var config = [
-        [document.getElementById('quantitySmall'), 49],
-        [document.getElementById('quantityMedium'), 20],
-        [document.getElementById('quantityLarge'), 30]
+        [document.getElementById('quantitySmall'), 500],
+        [document.getElementById('quantityMedium'), 900],
+        [document.getElementById('quantityLarge'), 1200]
       ];
 
-        submitBtn.addEventListener('click', function() {
+        submitButton.addEventListener('click', function() {
             var totalPrices;
             var quantities = config.map(function (data) {
                 var el = data[0];
