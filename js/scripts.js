@@ -1,16 +1,18 @@
-$("button#submit").click(function(){
-    var type = $("#type").val();
-//   var type = ["chicken tikka", "Hawaiian"]
-    var size = $("#size").val();
-    var toppings =$("#toppings").val();
-    var crust =$("#crust").val();
-    var delivery =$("#delivery").val();
-    alert("Hi, you have made an order of " + type + " for size " + size + " with a crust of " + crust + " and added your toppings to be  " + toppings +  ". You will receive your order as " + delivery +  ". Please proceed to make purchase ");
-});
-
-
-//calculating pizza price in ksh
 $(document).ready(function () {
+    $("button#submit").click(function(){
+        var type = $("#type").val();
+    //   var type = ["chicken tikka", "Hawaiian"]
+        var size = $("#size").val();
+        var toppings =$("#toppings").val();
+        var crust =$("#crust").val();
+        var delivery =$("#delivery").val();
+        alert("Hi, you have made an order of " + type + " for size " + size + " with a crust of " + crust + " and added your toppings to be  " + toppings +  ". You will receive your order as " + delivery +  ". Please proceed to make purchase ");
+    });
+
+
+
+
+    //calculating pizza price in ksh
     function calcTotalPrice(quantity, price) {
         return quantity * price;
     }
